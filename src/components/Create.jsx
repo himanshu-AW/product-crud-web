@@ -5,8 +5,6 @@ import { ProductContext } from '../utils/Context';
 import { nanoid } from 'nanoid';
 import { toast } from 'react-toastify';
 
-
-
 const Create = () => {
 
   const {pathname, search} = useLocation();
