@@ -13,7 +13,6 @@ const Details = () => {
   const { pathname, search } = useLocation();
   const navigate = useNavigate();
   
-
   // const getSingleProduct = async () =>{
   //     try{
   //         const {data} = await axios.get(`/products/${id}`);
